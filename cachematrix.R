@@ -1,4 +1,12 @@
 ## The following two functions cache/retrieve from the cache the inverse of a matrix
+## For example:
+##  Create "matrix":
+##      > mat <- makeCacheMatrix(matrix(rnorm(9), 3, 3))
+##  Calculate the inverse for the first time:
+##      > cacheSolve(mat)
+##  Retrieve the inverse from the cache
+##      > cacheSolve(mat)
+
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
